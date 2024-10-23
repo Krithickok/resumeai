@@ -1,0 +1,159 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #64c1a1;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #555;
+    border-bottom: 2px solid #64c1a1;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #64c1a1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact-info p strong {
+    color: #555;
+}
+
+.resume-button {
+    background-color: #64c1a1;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.resume-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.resume-button:hover {
+    background-color: #57b193;
+}
+
+/* Chatbot Styles */
+#chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.chatbox {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#chatbox-messages {
+    height: 250px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+#chatbox-messages p {
+    margin: 10px 0;
+}
+
+.bot {
+    color: #64c1a1;
+    font-weight: 500;
+}
+
+.user {
+    color: #333;
+    text-align: right;
+    font-weight: 500;
+}
+
+#user-input {
+    width: calc(100% - 60px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#send-btn {
+    width: 50px;
+    background-color: #64c1a1;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #57b193;
+}
